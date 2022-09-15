@@ -12,7 +12,7 @@ class Servicio(models.Model):
     contenido = models.CharField(max_length=50)
     imagen = models.ImageField()
     created = models.DateTimeField(auto_now_add=True)
-    update = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now_add=True)
 
     # Clase que da nombre al las tablas correspondientes en la base de datos
     class Meta:
