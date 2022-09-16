@@ -1,8 +1,3 @@
-from email.mime import image
-from msilib import MSIMODIFY_DELETE
-from tabnanny import verbose
-from turtle import update
-from venv import create
 from django.db import models
 
 # Create your models here.
