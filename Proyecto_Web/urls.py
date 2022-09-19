@@ -21,6 +21,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('servicios/', include('servicios.urls') ),
+    path('blog/', include('blog_App.urls') ),
 
     # Enlace del archivo urls de la App con el proyecto
     path('', include('Proyecto_WebApp.urls')),
