@@ -20,8 +20,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('servicios/', include('servicios.urls') ),
 
     # Enlace del archivo urls de la App con el proyecto
     path('', include('Proyecto_WebApp.urls')),
-    #path('', include('servicios.urls') ),
+    
 ]
