@@ -1,3 +1,4 @@
+from pydoc import visiblename
 from django.urls import path
 from . import views
 from django.conf import settings
@@ -9,4 +10,5 @@ urlpatterns = [
    
     # Urls para cada View
     path('', views.blog, name="Blog"), 
+    path('categoria/<int:categoria_id>/', views.categoria, name="categoria"),
 ]
