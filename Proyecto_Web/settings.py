@@ -124,6 +124,16 @@ STATIC_URL = 'static/'
 MEDIA_URL='Proyecto_Web/media/'
 MEDIA_ROOT = BASE_DIR/'Proyecto_Web/media'
 
+# Configuracion de email
+
+EMAIL_BACKEND= "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "jrengifovelasco86@gmail.com"
+EMAIL_HOST_PASSWORD ="ythrfzuoabqcoypg"
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
