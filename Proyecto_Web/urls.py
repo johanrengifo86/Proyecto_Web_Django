@@ -25,6 +25,8 @@ urlpatterns = [
     path('contacto/', include('contacto.urls') ),
     path('tienda/', include('tienda.urls') ),
     path('carroCompras/', include('carroCompras.urls') ),
+    path('autenticacion/', include('autenticacion.urls') ),
+
 
     # Enlace del archivo urls de la App con el proyecto
     path('', include('Proyecto_WebApp.urls')),
