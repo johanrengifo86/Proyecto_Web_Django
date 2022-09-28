@@ -1,11 +1,10 @@
 from django.urls import path
-
-from . import views #Importación views
+from .views import VRegistro #Importación views
 
 
 urlpatterns = [
    
     # Urls para cada View
 
-    path('', views.autenticacion,name="Autenticacion"),
+    path('', VRegistro.as_view(), name="Autenticacion"),
 ]

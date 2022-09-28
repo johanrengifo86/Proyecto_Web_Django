@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'tienda',
     'carroCompras',
     'autenticacion',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -137,6 +138,9 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "jrengifovelasco86@gmail.com"
 EMAIL_HOST_PASSWORD ="ythrfzuoabqcoypg"
+
+
+CRISPY_TEMPLATE_PACK='bootstrap4'
 
 
 # Default primary key field type
